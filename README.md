@@ -4,11 +4,11 @@ AI-powered study companion.
 
 | Endpoint | Module | Model |
 |---|---|---|
-| `POST /qa` | qna.py | Gemini 1.5 Pro (API) |
+| `POST /qa` | qna.py | Gemini 3.8 flash lite (API) |
 | `POST /explain` | explanation_module.py | LaMini-Flan-T5-783M (local, CPU) |
-| `POST /quiz` | quiz_module.py | Gemini 1.5 Pro |
-| `POST /summarize` | summary_module.py | Gemini 1.5 Pro |
-| `POST /learn/recommendations` | learning_path.py | Gemini 1.5 Pro |
+| `POST /quiz` | quiz_module.py | Gemini 3.8 flash   |
+| `POST /summarize` | summary_module.py | Gemini 3.8 flash  |
+| `POST /learn/recommendations` | learning_path.py | Gemini 3.8 flash  |
 
 ## Run
 
